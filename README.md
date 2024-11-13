@@ -1,4 +1,10 @@
-tool for L1 / PRSL3K access
+Tool To download All, CDM IS Not Included
 
-contact me for more informations 
-widevinely@proton.me
+For CDM You can Mail :- widevinely@proton.me
+
+Note : CDM is not free
+
+'NETFLIX', 'AMAZON', 'APPLETV', 'DISNEYPLUS', 'CANALPLUS', 'DCUNIVERSE', 'HULU', 'STAN', 'RAKUTEN', 'GOOGLE', 'FANDANGONOW', 'PEACOCKTV', 'HBOMAX', 'OSN']
+
+Video Proof ADDED
+
