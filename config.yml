@@ -1,0 +1,139 @@
+# Config that can be stored anywhere on your system but the default is **/widevinely/config as widevinely.yml
+# Config can be set with `widevinely cfg set PATH`
+
+directories:
+  # Default links dir             Same path as Root; /root/widevinely/widevinely
+  # Default temp dir              Windows: %LOCALAPPDATA%\Temp\widevinely           | macOS/Linux: /var/tmp
+  # Default downloads dir         Windows: %DOWNLOAD_FOLDER%\widevinely             | macOS/Linux: ~/Downloads/widevinely'
+  # Default devices dir           Windows: %LOCALAPPDATA%\widevinely\devices        | macOS/Linux: ~/.local/share/widevinely/devices')
+  # Default cookies dir           Windows: %LOCALAPPDATA%\widevinely\cookies        | macOS/Linux: ~/.local/share/widevinely/cookies')
+  # Default sessions dir          Windows: %LOCALAPPDATA%\widevinely\sessions       | macOS/Linux: ~/.cache/widevinely')
+  # Default service_configs dir   Windows: %LOCALAPPDATA%\widevinely\services       | macOS/Linux: ~/.config/widevinely/services')
+  # links: 
+  temp: E:\widevinely\widevinely\temp
+  downloads: E:\widevinely\widevinely\downloads
+  devices: E:\widevinely\widevinely\configs\devices
+  # cookies: 
+  # sessions: 
+  # service_configs:
+
+github: # Instructions: https://github.com/Hollander-1908/widevinely-wiki/wiki/Installation-Instructions
+        ## All values are optional
+  token: # Personal Github Token to access Widevinely's repository. Don't share this with anyone!
+  auto_update: false
+
+# Override default values for arguments
+arguments:
+  alang: orig, en, hi, ta, te, kn, bn, mr, ml, pa, gu
+  p2p_naming: true
+  proxy: in_res
+
+  # It's also possible to use service specific arguments
+  DisneyPlus:
+    original_aspect_ratio: false
+    proxy_country: nl
+
+# LOCAL CDM device to use for decryption. 
+# Can be specified per-service and per-profile.
+cdm:
+  default: WVD # Default CDM device used for non-speficied services; L3 Cdm recommended
+  Amazon: StreamFabCdm # If you have an ChromeCdm or have access to the ChromeCdm API you can use it.
+  Netflix: chrome
+
+cdm_api:
+  - name: chrome
+    device_name: Chrome
+    device_type: Chrome
+    system_id: 2710
+    security_level: 3
+    host: https://2710.in:8443/api
+    secret: 16c6528c-0dbf-416b-97f7-e2598324518c
+
+# Login details for each service that needs credentials
+# Can be either passed as a string email:password or list [email, password]
+credentials:
+  DisneyPlus: x:x
+  Netflix: x:x
+
+  # When a service supports zones/regions 
+  # it can also use different credentials
+  Viaplay: 
+    nl:
+    pl:
+
+# Designate which Video Range should be used for the service.
+# When no service specified it will fallback on the specified default or SDR
+# Use HDR10+DV for creating a HYBRID, other choices are; SDR | HDR10 | HLG | DV
+video_range:
+  default: SDR
+  Apple: HDR10+DV
+  Netflix: HDR10+DV
+  hotstar: HDR10+DV
+  Amazon: HDR10+DV
+
+# SQL databases to cache content keys to
+# Both LOCAL SQL as REMOTE MySQL are supported
+key_vaults:
+  # - type: local
+  #   name: *'s
+  #   path: */key_store.db 
+    
+- type: remote
+  name: SwAgs
+  host: databases.xyz
+  database: xxx
+  username: xxx
+  password: hGn1A=*gZeFh
+
+# Profiles/Cookies to be used for services
+# When default is specified your cookies need to have the exact name as the service in lowercase.
+profiles:
+  default: service
+
+  # When a service supports zones/regions 
+  # it can also use different profiles
+  Amazon: # Supported Zones: amazon / primevideo | Supported Regions: com / co.uk / de / co.jp
+    primevideo: primevideo
+  DiscoveryPlus: # Supported Regions: nl / us
+    nl: discoveryplus_nl
+    us: discoveryplus_us
+
+# Proxies provided by service, string or list
+proxies:
+  default_service: PrivateVPN
+  default_country: nl
+  
+  accounts: # Credentials of the proxy accounts you want to use
+      NordVPN: # (https://my.nordaccount.com/dashboard/nordvpn/ -> Advanced configuration).
+      PrivateVPN: # (https://privatevpn.com/control-panel -> Proxy login).
+      Torguard: # (https://torguard.net/clientarea.php?action=changepw -> Change Service Credentials).
+  
+  # Proxy uris are optional which can be named whatever you want
+  # and provided in a string or list (selection: random). Can be called with `--proxy nl_res`
+  uri: 
+      in_res1: x
+      in_res: x
+      us: [x]
+
+TheMovieDB:
+  language: en-US # Language that will be used for the Metadata provided by TheMovieDB
+  api_key: 02dc2a49853be87847073a1d7f59eaad
+
+# Customize output filenames
+# Facets: IMAX | OAR
+output_template:
+  movies: '{title}.{year}.{facets}.{quality}.{source}.WEB-DL.{audio}.{video}-{tag}'
+  series: '{title}.{season_episode}.{episode_name}.{facets}.{quality}.{source}.WEB-DL.{audio}.{video}-{tag}'
+  # If this is false, the first audio track will be used to determine what audio tag to use.
+  # If it's true, the last audio track will be used instead.
+  use_last_audio: false
+
+# Group tag to add to releases
+tag: Telly
+# Use a different tag for SD (leave blank to use the same)
+tag_sd: Telly
+
+# Headers can also be specified, will be used with every request
+headers:
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.75 Safari/537.36
+  Accept-Language: en-US,en;q=0.8
