@@ -1,0 +1,3 @@
+[console_scripts]
+pywidevinely=pywidevinely.main:main
+

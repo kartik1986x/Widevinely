@@ -1,0 +1,17 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+# Domain	Subdomain	Path	Secure	Expire	Name	Value
+.primevideo.com	TRUE	/	TRUE	1726504050	session-id	260-6066345-1158703
+.primevideo.com	TRUE	/	FALSE	1726504050	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1726504050	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1726504050	ubid-main-av	257-7048887-8987465
+.primevideo.com	TRUE	/	FALSE	1729666063	av-timezone	Asia/Calcutta
+.primevideo.com	TRUE	/	TRUE	1726504050	x-main-av	"b1h2p9Q8XMqMwQOorc@mZbZ@tjemYGPCMDZvfGQdtouluvcExljfpVR1xJNadsSF"
+.primevideo.com	TRUE	/	TRUE	1726504050	at-main-av	Atza|IwEBIPxrnI_k2iLPT5Qj8wnbwMF1kKHrzM4-qAXM_k6ckUB51xugOqJmWt8zuIXxYVG3zQvCevlvhYWRgSPNjtJt2GQW7H3UPeJS_i_6noklcgmW0CQTA7HARwYPlSX7IhbErLrihXGfu9T0GJFdflJw80PnH9tHGZDQCEXy7-_4RyCdiQiyLaOK_OCndQZ0LbEfJtuW13g7LKaebT1vIEqpvqHxXmuC42noDxSczQshrkcY1wrdUvUx7szu6H-eoGJPryg
+.primevideo.com	TRUE	/	TRUE	1726504050	sess-at-main-av	"R7vyc093Hk64uvqUxESCM8rULR9Th2RyzGB6sbXICR0="
+.primevideo.com	TRUE	/	TRUE	1726504050	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1700475827	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTJXMU5ERlNZQ1ZWWEgmdGltZXN0YW1wPTE2OTc4ODM4Mjg1MDUmdmVyc2lvbj12MQ.g7zP_uZoOrFhln6EfVTcHMkfG7zRSwThPi9aLxVV-c5DAAAAAQAAAABlM6a0cmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+.primevideo.com	TRUE	/	TRUE	1729666049	session-token	"x0Ek6h2sD0W6Y2FzYyxkVdQWaQRiKU8I/aR6WlnYKt2bB7VsMEgunnFfctoCQOYa5XO0u6EADPC/b04mkUkEAm9TADfBVA8u8AfOtVuS08zid4SfyT+oSjplokngatWQ0aZjCR8P+81X0t5RDnYDnCp5UFR9g9wKOwwoaNkdAB3ffenoyJdYxQ2jialveU1H+HA1RCbxvJ3Q3x19JdPrep6sALrHupUUpiP0pU3CgwsppJh7VGlXcDHJQE45ZT94IqarKnZFCspEW2oPkmesfTsi/93vxouYy4R4kQRlxqJ29+SJdkxmieSkxWzQprlDmSHqHtW8SBT/9zRUWk+INsoEe+3iI9N+AW/fPyfxRaq33i99X7/TG25LxPCDGzLdQWDqnOq/ukU="
+www.primevideo.com	FALSE	/	FALSE	1728370099	csm-hit	tb:T1Y9H26KGJ9MVNQP1W7M+s-6TR4WSWZE8XFV6A1DRC9|1698130099922&t:1698130099922&adb:adblk_yes

@@ -1,0 +1,8 @@
+# This is an example user config file. Shown values are guided *examples* only!
+# ESNs can easily be generated with https://github.com/zackmark29/NetflixESNGenerator
+# or can be made yourself https://gist.github.com/rlaphoenix/155a8d47a6ce5ce74cb21a5860911830#browser
+esn_map:
+  browser_esn: NFCDCH-02-45996381879EDED56C1C2B3CDE900C
+
+  # key map of CDM WVD `SystemID = 'ESN you want to use for that CDM WVD'`
+  2710: 'NFCDCH-02-45996381879EDED56C1C2B3CDE900C'

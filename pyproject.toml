@@ -1,0 +1,76 @@
+[build-system]
+requires = ["poetry-core>=1.2.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "widevinely"
+version = "3.0.0"
+description = "The best Widevine Multi-Download solution available."
+authors = ["Hollander_1908 <hollander1908@gmail.com>"]
+repository = "https://github.com/widevinely/widevinely"
+
+[tool.mypy]
+exclude = "_pb2\\.pyi?$"
+check_untyped_defs = true
+disallow_incomplete_defs = true
+disallow_untyped_defs = true
+follow_imports = "silent"
+ignore_missing_imports = true
+no_implicit_optional = true
+
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+protobuf = "4.21.6"
+pycryptodome = "^3.15.0"
+pycryptodomex = "^3.15.0"
+appdirs = "^1.4.4"
+beautifulsoup4 = "~4.8.2"
+click = "^8.0.1"
+colorama = "^0.4.4"
+coloredlogs = "^15.0"
+construct = "2.8.8"
+crccheck = "^1.0"
+jsonpickle = "^2.0.0"
+langcodes = { extras = ["data"], version = "^3.3.0" }
+lxml = "^4.6.3"
+m3u8 = "^0.9.0"
+pycountry = "^20.7.3"
+pyhulu = "^1.1.2"
+pymp4 = "^1.2.0"
+pymediainfo = "^5.0.3"
+PyMySQL = { extras = ["rsa"], version = "^1.0.2" }
+toml = "^0.10.2"
+pytomlpp = "^1.0.2"
+Unidecode = "^1.2.0"
+requests = { extras = ["socks"], version = "^2.26.0" }
+validators = "^0.18.2"
+websocket-client = "^1.1.0"
+yt-dlp = "^2021.9.2"
+imdbpy = "^2021.4.18"
+toolz = "^0.11.1"
+pandas = "^1.4.3"
+tmdbv3api = "^1.7.6"
+prettytable = "^2.2.1"
+pysrt = "^1.1.2"
+rich = "^12.4.4"
+titlecase = '^2.3.0'
+PyYAML = '^6.0'
+pyjwt = '^2.4.0'
+httpx = {extras = ["http2", "socks"], version = "^0.23.0"}
+pywidevinely = {extras = ["serve"], path = "wheels/pywidevinely-1.5.9-py3-none-any.whl"}
+xmltodict = "^0.13.0"
+GitPython = "^3.1.27"
+python-googlesearch = "^1.1.1"
+inquirerpy = "^0.3.4"
+
+
+[tool.poetry.scripts]
+widevinely = "widevinely.main:main"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^3.0.4"
+flake8 = "^5.0.4"
+black = "^22.6.0"
+isort = "^5.10.1"
+pyinstaller = "^5.3"

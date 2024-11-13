@@ -1,0 +1,13 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+# Domain	Subdomain	Path	Secure	Expire	Name	Value
+.netflix.com	TRUE	/	FALSE	1714909725	hasSeenCookieDisclosure	true
+.netflix.com	TRUE	/	FALSE	1741627173	dsca	customer
+.netflix.com	TRUE	/	FALSE	1726508523	nfvdid	BQFmAAEBEJbm2q42G4bIRK_DUAI0kf9gekUHoRUkqUbfF0_C0xdRKAqgcXz4ORFC9mJQ7S0rcNV6TMm6K6-c75MheYb0ErLGi6gGea1zvzOhBIYWEtT_yslkB0rz8L1J7Er9Fapt6FVSV4YGyzwPQhaphln9gLtx
+.netflix.com	TRUE	/	FALSE	1714909725	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Atrue%7D%7D
+.netflix.com	TRUE	/	FALSE	1738603158	OptanonAlertBoxClosed	2024-02-04T17:19:18.933Z
+.netflix.com	TRUE	/	TRUE	1738660159	SecureNetflixId	v%3D2%26mac%3DAQEAEQABABQqb0WK7QWDnkl7Sc-4pwc-wMwpl2mU8M0.%26dt%3D1707124159685
+.netflix.com	TRUE	/	TRUE	1738660159	NetflixId	ct%3DBQAOAAEBEHeXpC7uySm2sRsJhcXAxpuCgDMAwwtRsLL-SZFY-zYBxrMuvZUU88gvZQdrgWiVrmDFVge3ZSgbxnpy21PN_CZkhLpytmOuKz7VsdSc8H7DcQMKUdfNBFT7Gma-F3oVB-LbllyPmtlMpbBuUYFWk55hFnyNITfwIwZb4L3YMw9VOnn02LlueWuSMGjk9fQUe2e4VAFy6HTcP02H9ZQ5WBa4Aq7lsfw5gB56mEg-EsIvDwpOtvoFWOfyjkf_g5or3WvP8g1VgW_sZ2xnXVQ7kr0aMHYhYs6rBGlrW2UUl058aQD-IkXhJK3QKh4Zu7xa_ecN6UZDJ9xhrCc8zgmQXqudUGO6bM5vIxxVzdIlk5AFw-b0EOCnsTt5HeGCdxY566qKPkgjEnGum4A5q30OnMdLR5Zpx2d7CVc58L6GpP0jHPWacJ8YEGYfIqisIoR7cCXNio91_EuG5sa5lo_dPvx0vgnWHuSnHin9FeqFChzfy0ipFfhQ_WyWK_6MK62JQckyoN-4Akr15PB_Hrph-4cAUIfiu0pFhIweO0CEFbO-vjDm_P7dBaZ5MbjPxAsr5WjdkyOVT8uUcU5Y2VYpS4kxlMaKSrlBhi_gyQx1kIjsTnDd4jUKWi1LDoKtIH8BihK4Rk-VXMVBs-tJYEdVwd4ToJwoqSaHud6BlGH2f9yUgdJOtTT0lWkcq04mOSFBgl1EdioH2tfdISQ1a_yfu2SEc3bEJl4KVCTSCxTOElB7T5k7idtWdLGuwq8GKJakksNS1nHUpA_3B_ktu-lBCaZ_gl44vCrbULrr38zG_-kEEFnoFsEtBARm6dv9lBltq4yDnUpRh0cKy5BtmXB5YSIYdkVeAxE_SG2ugdhkP3FaYPU.%26bt%3Ddbl%26ch%3DAQEAEAABABSrvfol8PM4JHGF4aQvJsII6JKqotz5ewE.%26v%3D2%26mac%3DAQEAEAABABRqlC8Mu8sBKhdiRdWQYo5lANKKOMi4BUw.
+.netflix.com	TRUE	/	FALSE	1738669727	OptanonConsent	isGpcEnabled=0&datestamp=Mon+Feb+05+2024+17%3A18%3A47+GMT%2B0530+(India+Standard+Time)&version=202401.2.0&isIABGlobal=false&hosts=&consentId=90774c9c-3430-4742-b34c-f187ab9fc6e2&interactionCount=2&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false&browserGpcFlag=0&geolocation=NL%3BNH
