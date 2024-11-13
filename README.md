@@ -6,5 +6,6 @@ Note : CDM is not free
 
 'NETFLIX', 'AMAZON', 'APPLETV', 'DISNEYPLUS', 'CANALPLUS', 'DCUNIVERSE', 'HULU', 'STAN', 'RAKUTEN', 'GOOGLE', 'FANDANGONOW', 'PEACOCKTV', 'HBOMAX', 'OSN']
 
-Video Proof ADDED
+Video Proof ADDED :
 
+https://uploadnow.io/f/Wf5nkS5
